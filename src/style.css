@@ -31,6 +31,10 @@ body {
   color: white;
 }
 
+.Logo {
+  font-weight: 700;
+}
+
 .FeedItem {
   background: white;
   border: 1px solid #e6e6e6;

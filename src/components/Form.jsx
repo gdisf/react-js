@@ -1,6 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { uploadImage } from '../redux/actionCreators';
 
 class Form extends React.Component {
 	constructor(props) {

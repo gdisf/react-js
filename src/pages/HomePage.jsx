@@ -1,6 +1,6 @@
 import React from 'react';
 import FeedList from '../components/FeedList.jsx';
-import Form from '../components/Form.jsx';
+import ImageUploaderForm from '../components/ImageUploaderForm.jsx';
 import data from '../../data.json';
 
 const { photos } = data;
@@ -27,7 +27,7 @@ class HomePage extends React.Component {
 	render() {
 		return (
 			<div className="HomePage">
-				<Form handleAddPhoto={this.handleAddPhoto} />
+				<ImageUploaderForm handleAddPhoto={this.handleAddPhoto} />
 				<FeedList photos={this.state.photos} />
 			</div>
 		);

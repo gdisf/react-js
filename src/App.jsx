@@ -5,7 +5,6 @@ import AboutPage from './pages/AboutPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import Header from './components/Header.jsx';
 
-// how do we want to divide up where to put BrowserRouter, Provider, etc? We could put it in index.js
 const App = () => {
   return (
     <BrowserRouter>

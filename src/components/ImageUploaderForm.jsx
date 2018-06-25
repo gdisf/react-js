@@ -1,36 +1,18 @@
 import React from 'react';
 
-class ImageUploaderForm extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			userInput: ''
-		};
-		this.handleFormSubmit = this.handleFormSubmit.bind(this);
-		this.handleInputChange = this.handleInputChange.bind(this);
-	}
-	handleFormSubmit(event) {
-		event.preventDefault();
-		console.log('submitting')
-		this.props.handleAddPhoto(this.state.userInput);
-		this.setState({
-			userInput: ''
-		});
-	}
-	handleInputChange(event) {
-		const value = event.target.value;
-		this.setState({
-			userInput: value
-		});
-	}
-	render() {
-		return (
-			<form className="Form">
-				<input placeholder="enter a url here" value={this.state.userInput} onChange={this.handleInputChange} />
-				<button onClick={this.handleFormSubmit}>Submit</button>
-			</form>
-		);
-	}
+// Exercise 2: Set It Up
+// write a functional component
+// make it a form element with class name ImageUploaderForm
+// write one input element and button element inside.
+// export the component!
+
+const ImageUploaderForm = () => {
+	return (
+		<form className="ImageUploaderForm">
+			<input placeholder="enter a url here" />
+			<button>Submit</button>
+		</form>
+	);
 }
 
 export default ImageUploaderForm;

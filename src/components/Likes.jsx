@@ -1,30 +1,24 @@
 import React from 'react';
 
-class Likes extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			numLikes: this.props.totalLikes
-		};
-		this.handleLikeButtonClick = this.handleLikeButtonClick.bind(this);
-	}
-	handleLikeButtonClick() {
-		this.setState((prevState) => {
-			return {
-				numLikes: prevState.numLikes + 1
-			};
-		});
-	}
-	render() {
-		return (
-			<div className="Likes">
-				<span>{ this.state.numLikes } likes</span>
-				<span className="Likes-like-button" onClick={this.handleLikeButtonClick}>
-					Like
-				</span>
-			</div>
-		);
-	}
+// Exercise 2: Set It Up
+// write a functional component
+// make it a div with a class name of Likes
+// write a span and a button element inside
+// export the component!
+
+// Exercise 3: Prop It Up
+// Likes should take in number of likes as a prop and display it.
+
+const Likes = (props) => {
+	const { totalLikes } = props;
+	return (
+		<div className="Likes">
+			<span>{ totalLikes } likes</span>
+			<button className="LikesButton">
+				Like
+			</button>
+		</div>
+	);
 }
 
 export default Likes;

@@ -46,16 +46,16 @@ body {
   width: 100%;
 }
 
-.Form {
+.ImageUploaderForm {
   display: flex;
 }
 
-.Form input {
+.ImageUploaderForm input {
   flex-grow: 1;
   padding: 5px;
 }
 
-.Form button {
+.ImageUploaderForm button {
   background: #d8ae64;
   border: none;
   color: white;
@@ -71,8 +71,11 @@ body {
   flex: 1;
 }
 
-.Likes-like-button {
+.LikesButton {
   text-align: right;
+  background: #d8ae64;
+  border: none;
+  color: white;
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -306,7 +309,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-/* Forms
+/* ImageUploaderForms
    ========================================================================== */
 
 /**

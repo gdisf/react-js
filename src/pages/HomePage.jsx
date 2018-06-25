@@ -1,37 +1,27 @@
 import React from 'react';
-import FeedList from '../components/FeedList.jsx';
-import ImageUploaderForm from '../components/ImageUploaderForm.jsx';
 import data from '../../data.json';
+import ImageUploaderForm from '../components/ImageUploaderForm.jsx';
+import FeedList from '../components/FeedList';
+
+// Exercise 2: Set It Up
+// write a functional component
+// make it a div with a class name of HomePage
+// import ImageUploaderForm and FeedList
+// include then inside of Homepage
+// export the Homepage component!
+
+// Exercise 3: Prop It Up
+// Need to extract photos from data and then pass it into HomePage
 
 const { photos } = data;
 
-class HomePage extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			photos: photos
-		}
-		this.handleAddPhoto = this.handleAddPhoto.bind(this);
-	}
-	handleAddPhoto(url) {
-		const newPhoto = {
-				url: url,
-				likes: 0
-		};
-		this.setState((prevState) => {
-			return {
-				photos: prevState.photos.concat([newPhoto])
-			};
-		});
-	}
-	render() {
-		return (
-			<div className="HomePage">
-				<ImageUploaderForm handleAddPhoto={this.handleAddPhoto} />
-				<FeedList photos={this.state.photos} />
-			</div>
-		);
-	}
+const HomePage = () => {
+	return (
+		<div className="HomePage">
+			<ImageUploaderForm />
+			<FeedList photos={photos} />
+		</div>
+	);
 }
 
 export default HomePage;

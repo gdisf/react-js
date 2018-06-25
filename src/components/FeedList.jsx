@@ -1,5 +1,4 @@
 import React from 'react';
-import FeedItem from './FeedItem.jsx';
 
 // Exercise 2: Set It Up
 // write a functional component
@@ -12,12 +11,3 @@ import FeedItem from './FeedItem.jsx';
 // Destructure photos from props
 // Iterate over the data and map each photo data to a FeedItem
 
-const FeedList = () => {
-    return (
-        <div className="FeedList">
-            <FeedItem />
-        </div>
-    );
-};
-
-export default FeedList;

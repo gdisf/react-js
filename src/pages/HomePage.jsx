@@ -1,7 +1,5 @@
 import React from 'react';
 import data from '../../data.json';
-import ImageUploaderForm from '../components/ImageUploaderForm.jsx';
-import FeedList from '../components/FeedList';
 
 // Exercise 2: Set It Up
 // write a functional component
@@ -13,14 +11,3 @@ import FeedList from '../components/FeedList';
 // Exercise 3: Prop It Up
 // Need to extract photos from data and then pass it into HomePage
 
-
-const HomePage = () => {
-	return (
-		<div className="HomePage">
-			<ImageUploaderForm />
-			<FeedList />
-		</div>
-	);
-}
-
-export default HomePage;

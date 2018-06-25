@@ -9,11 +9,10 @@ import React from 'react';
 // Exercise 3: Prop It Up
 // Likes should take in number of likes as a prop and display it.
 
-const Likes = (props) => {
-	const { totalLikes } = props;
+const Likes = () => {
 	return (
 		<div className="Likes">
-			<span>{ totalLikes } likes</span>
+			<span>likes</span>
 			<button className="LikesButton">
 				Like
 			</button>

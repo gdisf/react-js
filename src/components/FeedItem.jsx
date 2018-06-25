@@ -14,13 +14,11 @@ import Likes from './Likes.jsx';
 // Hint: What do you need in order to get the image to display?
 // Hint what do you need in order to get likes to display in the Likes component?
 
-const FeedItem = (props) => {
-  const { photo } = props;
-  const { url, likes } = photo;
+const FeedItem = () => {
   return (
     <div className="FeedItem">
-      <img className="Image" src={ url } />
-      <Likes totalLikes={likes} />
+      <img className="Image" src={''} />
+      <Likes />
     </div>
   );
 };

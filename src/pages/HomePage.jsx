@@ -13,13 +13,12 @@ import FeedList from '../components/FeedList';
 // Exercise 3: Prop It Up
 // Need to extract photos from data and then pass it into HomePage
 
-const { photos } = data;
 
 const HomePage = () => {
 	return (
 		<div className="HomePage">
 			<ImageUploaderForm />
-			<FeedList photos={photos} />
+			<FeedList />
 		</div>
 	);
 }

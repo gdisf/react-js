@@ -12,19 +12,10 @@ import FeedItem from './FeedItem.jsx';
 // Destructure photos from props
 // Iterate over the data and map each photo data to a FeedItem
 
-const FeedList = (props) => {
-    const { photos } = props;
+const FeedList = () => {
     return (
         <div className="FeedList">
-            {
-                photos.map((photo, i) => {
-                    return (
-                        <FeedItem
-                            photo={photo}
-                        />
-                    );
-                })
-            }
+            <FeedItem />
         </div>
     );
 };

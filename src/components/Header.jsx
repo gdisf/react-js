@@ -3,7 +3,7 @@
   // make it a ul with a class name of Header
   // make four li: GDInsta, Home, About, Profile
   // put class name of Logo on the li element with GDInsta
-  // export the component!
+  // export default the component!
 
 // Exercise 7: Routing
   // import Link from react-router-dom

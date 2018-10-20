@@ -3,7 +3,7 @@
 	// make it a div with class name FeedItem
 	// make an img element inside
 	// import Likes, include it underneath img
-	// export the component!
+	// export default the component!
 
 // Exercise 3: Prop It Up
 	// pass in props as params to the component

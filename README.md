@@ -1,7 +1,5 @@
 # Intro to React + Redux
 
-# Intro to React + Redux
-
 ## Setup
 
 ### Clone the repo:

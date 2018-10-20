@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   // entry: webpack's entry file, where webpack will start looking to build it's dependency graph
-  entry: './solutions/exercise-4/index.js',
+  entry: './solutions/exercise-5/index.js',
   // output: where webpack will put the 'bundle' of code it made from packaging dependencies
   output: {
     // the filename of the output file

@@ -2,7 +2,13 @@
 	// write a functional component
 	// make it a form element with class name ImageUploaderForm
 	// write one input element and button element inside
-	// export the component!
+	// export default the component!
+
+// Exercise 4: Class It Up
+// Turn Likes from a functional to a class component.
+	 // handle import/inheritance
+	 // add a render method
+	 // change props from function argument to object attribute
 
 // Exercise 6: Get InFormation
 // Rewrite this component to accept user input

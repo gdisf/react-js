@@ -4,7 +4,7 @@
 
 ### Clone the repo:
 ```sh
-git clone https://github.com/sara-gudeman/gdi-react-redux.git
+git clone https://github.com/thefishter/react-js.git
 ```
 
 If you would like to save your work on your own GitHub repo, fork it first, then clone the fork.

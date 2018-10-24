@@ -1,10 +1,10 @@
-# Intro to React + Redux
+# Intro to React
 
 ## Setup
 
 ### Clone the repo:
 ```sh
-git clone https://github.com/thefishter/react-js.git
+git clone https://github.com/gdisf/react-js.git
 ```
 
 If you would like to save your work on your own GitHub repo, fork it first, then clone the fork.
